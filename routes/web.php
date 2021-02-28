@@ -17,3 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('products','ProductController');
+Route::resource('disco','DiscoController');
+Route::resource('list','ProductController');
