@@ -13,7 +13,7 @@ class CreateDiscoTable extends Migration
      */
     public function up()
     {
-        Schema::create('products', function (Blueprint $table) {
+        Schema::create('disc', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
             $table->string('Nombre_cancion');
